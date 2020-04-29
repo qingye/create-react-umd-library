@@ -1,0 +1,27 @@
+{
+  "name": "create-react-umd-library",
+  "version": "0.0.1",
+  "description": "react16 webpack4 umd library cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-react-umd-library": "bin/index.js"
+  },
+  "keywords": [
+    "react16",
+    "webpack4",
+    "umd",
+    "library",
+    "cli"
+  ],
+  "author": "chris.yang",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "cross-spawn": "^7.0.2",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0"
+  }
+}
