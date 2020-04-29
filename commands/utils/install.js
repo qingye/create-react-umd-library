@@ -61,7 +61,7 @@ async function verByPkg(pkg) {
 async function installAll() {
     console.log('install node_modules');
     return new Promise(resolve => {
-        const child = spawn('yarn', ['install'], {cwd: `./${name}`, stdio: 'inherit'});
+        const child = spawn('yarn', ['install'], option);
         child.once('close', () => {
             resolve();
         });
